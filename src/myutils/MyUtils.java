@@ -23,7 +23,7 @@ public class MyUtils {
     {
         String resultat = "";
         if (!"".equals(cadena)) {
-            for (int i = cadena.length() - 1; i >= 0; i--) {
+            for (int i = cadena.length() - 1; i < 0; i--) {
                 cadena = resultat + cadena.charAt(i);
             }
         } else {

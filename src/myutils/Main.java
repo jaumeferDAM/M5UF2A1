@@ -15,9 +15,9 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println(MyUtils.inverteix(""));
+        System.out.println(MyUtils.inverteix("aeiou"));
         System.out.println(MyUtils.edat(19,10,1800));
-        System.out.println(MyUtils.factorial("hola"));
+        System.out.println(MyUtils.factorial(3));
     }
     
 }
